@@ -1,0 +1,39 @@
+@import "variables";
+@import "style/mixins";
+@import "style/header";
+@import "font";
+@import "style/Nameanimation";
+@import "style/Portrait";
+@import "style/Projets";
+@import "style/footer";
+@import "style/loader";
+
+
+body {
+  width: 100%;
+  background-repeat:repeat;
+  animation: colorchange 50s;
+  background-color: #20479E;
+  /* animation-name followed by duration in seconds*/
+  /* you could also use milliseconds (ms) or something like 2.5s */
+  -webkit-animation: colorchange 50s; /* Chrome and Safari */
+
+}
+
+@keyframes colorchange
+    {
+      0%   {background: #648CE7;}
+      25%  {background: #61E7FF;}
+      50%  {background: #4ACBE2;}
+      75%  {background: #4ABAE2;}
+      100% {background: #20479E;}
+    }
+
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+      0%   {background: #648CE7;;}
+      25%  {background: #61E7FF;}
+      50%  {background: #4ACBE2;}
+      75%  {background: #4ABAE2;}
+      100% {background: #20479E;}
+    }
