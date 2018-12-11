@@ -93,67 +93,67 @@
 }
 @keyframes anim-text-flow-keys {
   0% {
-    color: #5cd689;
+    color: #5cd683;
   }
   5% {
-    color: #5cd670;
+    color: #5cd681;
   }
   10% {
-    color: #5cd676;
+    color: #5cafd6;
   }
   15% {
-    color: #5c9fd6;
+    color: #d6c25c;
   }
   20% {
-    color: #a1d65c;
+    color: #5cd67a;
   }
   25% {
-    color: #5cd695;
+    color: #5cd67e;
   }
   30% {
-    color: #5c93d6;
+    color: #d6995c;
   }
   35% {
-    color: #5cd6a7;
+    color: #d6875c;
   }
   40% {
-    color: #74d65c;
+    color: #5cd67c;
   }
   45% {
-    color: #5ca5d6;
+    color: #d6d25c;
   }
   50% {
-    color: #5cd2d6;
+    color: #5cd6d2;
   }
   55% {
-    color: #68d65c;
+    color: #5cd6ce;
   }
   60% {
-    color: #60d65c;
+    color: #5cc2d6;
   }
   65% {
-    color: #d65e5c;
+    color: #5cd6c6;
   }
   70% {
-    color: #d6975c;
+    color: #5cd67a;
   }
   75% {
-    color: #89d65c;
+    color: #5ca3d6;
   }
   80% {
-    color: #d6d45c;
+    color: #5cadd6;
   }
   85% {
-    color: #5c9bd6;
+    color: #d6c45c;
   }
   90% {
-    color: #7ed65c;
+    color: #d6605c;
   }
   95% {
-    color: #5c9bd6;
+    color: #d68b5c;
   }
   100% {
-    color: #5cd687;
+    color: #d6815c;
   }
 }
 .anim-text-flow span:nth-of-type(1),
@@ -592,22 +592,12 @@
   text-align: left;
   font-size: 22px;
   line-height: 1.4;
+  width: auto;
 }
 @media (min-width: 600px) {
   .portrait__text-presentation {
     font-size: 30px;
-  }
-}
-.portrait__text-presentation-s {
-  margin-top: 20px;
-  font-family: "Avenir Next";
-  font-weight: 400;
-  font-size: 22px;
-  text-align: left;
-}
-@media (min-width: 600px) {
-  .portrait__text-presentation-s {
-    font-size: 30px;
+    width: 65%;
   }
 }
 .portrait__button-container {
@@ -757,9 +747,14 @@
 .Projet__img-container {
   margin-top: 40px;
   width: 90%;
-  height: 800px;
+  height: auto;
   margin: 0 auto;
   overflow: hidden;
+}
+@media (min-width: 600px) {
+  .Projet__img-container {
+    height: 800px;
+  }
 }
 .Projet__img-twitter {
   width: 100%;
@@ -950,6 +945,7 @@ body {
   /* you could also use milliseconds (ms) or something like 2.5s */
   -webkit-animation: colorchange 50s;
   /* Chrome and Safari */
+  font-family: Bloomsbury, AvenirNext, sans-serif;
 }
 
 @keyframes colorchange {

@@ -40,42 +40,20 @@
     text-align: left;
     font-size: 22px;
     line-height: 1.4;
+    width: auto;
     @include for-size('tablet-portrait-up'){
       font-size: 30px;
-
+      width: 65%
     }
-
   }
 
-  &__text-presentation-s {
-    margin-top: 20px;
-    font-family: 'Avenir Next';
-    font-weight: 400;
-    font-size: 22px;
-    text-align: left;
-    @include for-size('tablet-portrait-up'){
-      font-size: 30px;
-
-    }
-
-
-
-  }
-  &__contact {
-
-
-  }
 
   &__button-container {
-  margin-top: 40px;
-  text-align: center;
-  @include for-size('tablet-portrait-up'){
-    text-align: left;
-
-  }
-
-
-
+    margin-top: 40px;
+    text-align: center;
+    @include for-size('tablet-portrait-up'){
+      text-align: left;
+    }
   }
 
   &__hvr-bounce-to-top {

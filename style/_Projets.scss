@@ -25,10 +25,6 @@
     margin-top: -40px;
     }
 
-    &__article-text-container {
-
-    }
-
     &__text-article {
       text-align: justify;
       margin-top: 40px;
@@ -50,9 +46,12 @@
     &__img-container {
       margin-top: 40px;
       width: 90%;
-      height: 800px;
+      height: auto;
       margin: 0 auto;
       overflow: hidden;
+      @include for-size('tablet-portrait-up') {
+        height: 800px;
+      }
     }
 
 
