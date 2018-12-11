@@ -65,6 +65,15 @@
   src: url("./Font/avenirnext/AvenirNextLTPro-UltLt.otf") format("truetype");
   font-weight: 100;
 }
+@font-face {
+  font-family: "Bloomsbury";
+  src: url("./Font/Bloombury/Bloomsbury-Serif.otf") format("truetype");
+  font-weight: 100;
+  src: url("./Font/Bloombury/Bloomsbury-Script.otf") format("truetype");
+  font-weight: 200;
+  src: url("./Font/Bloombury/Bloomsbury-Sans.otf") format("truetype");
+  font-weight: 300;
+}
 /*
  * Animation module with all animation code
  */
@@ -93,67 +102,67 @@
 }
 @keyframes anim-text-flow-keys {
   0% {
-    color: #5cd683;
+    color: #8fd65c;
   }
   5% {
-    color: #5cd681;
+    color: #a1d65c;
   }
   10% {
-    color: #5cafd6;
+    color: #d69b5c;
   }
   15% {
-    color: #d6c25c;
+    color: #c8d65c;
   }
   20% {
-    color: #5cd67a;
-  }
-  25% {
-    color: #5cd67e;
-  }
-  30% {
-    color: #d6995c;
-  }
-  35% {
-    color: #d6875c;
-  }
-  40% {
-    color: #5cd67c;
-  }
-  45% {
-    color: #d6d25c;
-  }
-  50% {
-    color: #5cd6d2;
-  }
-  55% {
-    color: #5cd6ce;
-  }
-  60% {
     color: #5cc2d6;
   }
+  25% {
+    color: #5cb4d6;
+  }
+  30% {
+    color: #87d65c;
+  }
+  35% {
+    color: #d6ca5c;
+  }
+  40% {
+    color: #d69f5c;
+  }
+  45% {
+    color: #d6cc5c;
+  }
+  50% {
+    color: #add65c;
+  }
+  55% {
+    color: #7cd65c;
+  }
+  60% {
+    color: #d6665c;
+  }
   65% {
-    color: #5cd6c6;
+    color: #d6af5c;
   }
   70% {
-    color: #5cd67a;
+    color: #d67e5c;
   }
   75% {
-    color: #5ca3d6;
+    color: #bcd65c;
   }
   80% {
-    color: #5cadd6;
+    color: #5cd6c8;
   }
   85% {
-    color: #d6c45c;
+    color: #5cd697;
   }
   90% {
-    color: #d6605c;
+    color: #62d65c;
   }
   95% {
-    color: #d68b5c;
+    color: #5cc6d6;
   }
   100% {
-    color: #d6815c;
+    color: #5cd6a9;
   }
 }
 .anim-text-flow span:nth-of-type(1),
